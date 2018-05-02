@@ -3,18 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Blog Musica</title>
     <!--LINK TO BOOTSTRAP-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--LINK TO ESTILO PERSONAL-->
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
     <!--HEADER-->
-    <header class="container" style="background-color: #e37222">
+    <header class="container-fluid" style="background-color: #e37222">
         <div class="row">
-            <div>
-                <img src="img/logo.jpg" alt="Logo" class="rounded-circle" height="100">
+            <div class="col-lg-8 media">
+                <img src="img/logo.jpg" alt="Logo" class="rounded-circle " height="100">
+            </div>
+
+            <div class="col align-self-end media">
+                <img class="align-self-center mr-4" src="img/facebook.png" alt="facebook" width="40">
+                <img class="align-self-center mr-4" src="img/instagram.png" alt="Instagram" width="40">
+                <img class="align-self-center mr-4" src="img/pinterest.png" alt="Pinterest" width="40">
+                <img class="align-self-center mr-4" src="img/twitter.png" alt="Twitter" width="40">
             </div>
         </div>
     </header>
