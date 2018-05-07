@@ -1,3 +1,6 @@
+ body{
+     background-color: brown;
+ }
  .nav-item:hover{
     background-color: white;
 }
@@ -13,8 +16,8 @@ a:visited {
 }
 .form-control{
     border-left: none;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 .input-group-text{
@@ -22,11 +25,16 @@ a:visited {
     border-right: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* Margen del "buscar"*/
 .input-group{
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-fluid{
+    margin-top: 2%;
 }
