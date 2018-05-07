@@ -11,3 +11,22 @@ a:link {
 a:visited {
     color: black;
 }
+.form-control{
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.input-group-text{
+    background-color: white;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* Margen del "buscar"*/
+.input-group{
+    margin-top: 5%;
+}
